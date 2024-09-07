@@ -27,7 +27,10 @@ body {
 
     
 }
-
+p {
+    color: aliceblue;
+   
+}
 
 /* Estiliza os títulos h1 */
 h1 {
@@ -90,17 +93,15 @@ section button:hover {
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
 
- 
 }
 
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #8242d480; /* Cor de fundo dos itens */
+    background: #0e011f80; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
     
 }
 
@@ -113,7 +114,7 @@ section button:hover {
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #c2ccd6; /* Cor do texto dos links */
+    color: #7242f5; /* Cor do texto dos links */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
@@ -170,6 +171,7 @@ footer {
     position: absolute; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
+    position: absolute;
 }
 
 /* Transição suave ao mostrar os resultados */
@@ -186,7 +188,6 @@ footer {
         opacity: 1;
     }
 }
-
 
 /* Estilos para tamanhos de tela médios (769px a 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
