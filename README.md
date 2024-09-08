@@ -6,7 +6,7 @@ Wiki-Jogos é uma plataforma de referência e pesquisa para entusiastas de video
 
 🚀 #Tecnologias <br>
 Projeto desenvolvido ultiliando: <br>
-<hr>
+
 
 HTML5 <br>
 CSS3 <br>
